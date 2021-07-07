@@ -1,0 +1,31 @@
+.todos_box{
+    box-sizing: border-box;
+    width:100%;
+    margin:auto;
+    border: solid 5px black;
+    flex-direction: row;
+    min-height: 150px;
+    max-height: 300px;
+    display: grid;
+    align-items: center;
+    overflow-y: scroll;
+}
+.todos_box::-webkit-scrollbar {
+    width: 10px;
+  }
+  .todos_box::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  .todos_box::-webkit-scrollbar-thumb {
+    background: #888; 
+      border-radius:10px;
+  }
+  .todos_box::-webkit-scrollbar-thumb:hover {
+    
+    background: #555; 
+  } 
+
+.todo_task{
+    border-radius: 13px;
+    list-style: none;
+}
